@@ -1,100 +1,221 @@
 import "./About.css";
-import Tarikimg from '../../img/Tarik.png'
-import Farisimg from '../../img/Faris.png'
-import Ademimg from '../../img/Adem.png'
-import Amirimg from '../../img/Amir.png'
+import {
+  BrandFacebook,
+  BrandInstagram,
+  BrandGithub,
+  BrandLinkedin,
+} from "tabler-icons-react";
 
 function About() {
   return (
     <div className="container">
       <div className="card">
         <img
-          src="https://avatars.githubusercontent.com/u/100434447?v=4"
+          src="https://avatars.githubusercontent.com/u/101284406?s=400&u=0c8b65b3abdde14c7d6a573a37570d20722efad4&v=4"
           alt=""
           className="profile-picture"
         />
         <div className="info-container">
-          <span className="name">Kadir Nurkovic</span>
+          <span className="name">Edin Kučević</span>
           <span className="subtitle">React Developer</span>
           <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
+            Edin work's in center NIT as a Web developer.
           </span>
-          <ul className="uList">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img src={Tarikimg} alt="" className="profile-picture" />
-        <div className="info-container">
-          <span className="name">Tarik Ibrahimovic</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img
-          src={Farisimg}
-          alt=""
-          className="profile-picture"
-        />
-        <div className="info-container">
-          <span className="name">Faris Coric</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img
-          src={Amirimg}
-          alt=""
-          className="profile-picture"
-        />
-        <div className="info-container">
-          <span className="name">Amir Ukic</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+          <ul className="social">
+            <li>
+              <a
+                href="https://www.facebook.com/edinrokica"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandFacebook size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/edin.kucevic/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandInstagram size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/edinkucevic"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandGithub size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/edin-kucevic-6632a9253/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandLinkedin size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div className="card">
         <img
-          src={Ademimg}
+          src="https://pbs.twimg.com/profile_images/1167150397632462850/ogLL-HOT.jpg"
           alt=""
           className="profile-picture"
         />
         <div className="info-container">
-          <span className="name">Adem Ugljanin</span>
+          <span className="name">Emir Gegić</span>
           <span className="subtitle">React Developer</span>
           <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
+            Emir is a mathematician, and he work's in center NIT as a Web
+            developer.
           </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+          <ul className="social">
+            <li>
+              <a
+                href="https://www.facebook.com/emir.gegic.9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandFacebook size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/emir.gegic.9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandInstagram size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/gegeeem"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandGithub size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/emir-gegic-3848341b9/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandLinkedin size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="card">
+        <img
+          src="https://avatars.githubusercontent.com/u/89378479?v=4"
+          alt=""
+          className="profile-picture"
+        />
+        <div className="info-container">
+          <span className="name">Dženan Košuta</span>
+          <span className="subtitle">React Developer</span>
+          <span className="description">
+            Dženan is a mathematician, and he work's in center NIT as a Web
+            developer.
+          </span>
+          <ul className="social">
+            <li>
+              <a
+                href="https://www.facebook.com/dzenoafc/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandFacebook size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dzenan.kosuta/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandInstagram size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/dzenankosuta"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandGithub size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/dzenan-kosuta/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandLinkedin size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="card">
+        <img
+          src="https://avatars.githubusercontent.com/u/100077402?v=4"
+          alt=""
+          className="profile-picture"
+        />
+        <div className="info-container">
+          <span className="name">Senad Đerlek</span>
+          <span className="subtitle">React Developer</span>
+          <span className="description">
+            Senad work's in center NIT as a Web developer.
+          </span>
+          <ul className="social">
+            <li>
+              <a
+                href="https://www.facebook.com/senadddddddddddddd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandFacebook size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/senaaaaddd/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandInstagram size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Senaddd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandGithub size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/senad-djerlek-97625411b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BrandLinkedin size={28} strokeWidth={2} color={"#605f60"} />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
