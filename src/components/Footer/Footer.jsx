@@ -11,7 +11,7 @@ function Footer() {
             className="flex items-center mb-4 sm:mb-0 h-10"
           />
           <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">
-            Fuji
+            AnimeApp
           </span>
         </div>
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
