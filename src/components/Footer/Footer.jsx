@@ -49,7 +49,12 @@ function Footer() {
       <hr class="my-6 border-logored sm:mx-auto dark:border-logored lg:my-8" />
       <span class="block text-sm text-white sm:text-center">
         © 2022{" "}
-        <a href="https://flowbite.com/" class="hover:underline text-white">
+        <a
+          href="https://flowbite.com/"
+          target="_blank"
+          rel="noreferrer"
+          class="hover:underline text-white"
+        >
           Flowbite™
         </a>
         . All Rights Reserved.
